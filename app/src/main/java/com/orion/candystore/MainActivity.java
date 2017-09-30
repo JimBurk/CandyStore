@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.w("Main Activity", "Delete selected");
                 return true;
             case R.id.action_update:
+                Intent updateIntent = new Intent(this, UpdateActivity.class);
+                this.startActivity(updateIntent);
                 Log.w("Main Activity", "Update selected");
                 return true;
             default:
