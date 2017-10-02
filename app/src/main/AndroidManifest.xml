@@ -16,17 +16,25 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".InsertActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait">
+        </activity>
+
         <activity
             android:name=".DeleteActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".UpdateActivity"></activity>
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".UpdateActivity">
+            android:screenOrientation="portrait">
+        </activity>
+
     </application>
 
 </manifest>

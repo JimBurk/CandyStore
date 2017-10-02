@@ -4,6 +4,7 @@
     <string name="add">ADD</string>
     <string name="delete">DELETE</string>
     <string name="update">UPDATE</string>
+    <string name="reset">RESET</string>
 
     <string name="label_name">Name</string>
     <string name="label_price">Price</string>

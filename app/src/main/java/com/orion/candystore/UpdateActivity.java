@@ -3,7 +3,6 @@ package com.orion.candystore;
 import android.graphics.Point;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
 import android.text.InputType;
 import android.view.Gravity;
 import android.view.View;
@@ -34,7 +33,7 @@ public class UpdateActivity extends AppCompatActivity {
             ScrollView scrollView = new ScrollView(this);
             GridLayout grid = new GridLayout(this);
             grid.setRowCount(candies.size());
-            grid.setRowCount(4);
+            grid.setColumnCount(4);
 
             // create arrays of components
             TextView [] ids = new TextView[candies.size()];
